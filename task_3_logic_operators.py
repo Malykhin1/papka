@@ -9,3 +9,5 @@ elif sum_investions >= cash_ivan and sum_investions <= cash_michael:
     print('Вложиться могут: 1')
 else:
     print('Вложиться не могут')
+
+#ссылка на репозиторий в GitHub: https://github.com/Malykhin1/python_tasks
