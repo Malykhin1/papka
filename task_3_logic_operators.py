@@ -2,10 +2,10 @@ sum_investions = int(input('Минимальная сумма инвестици
 cash_ivan = int(input('Денег у Ивана: '))
 cash_michael = int(input('Денег у Майкла : '))
 if sum_investions <= cash_ivan and sum_investions <= cash_michael:
-    print('2')
+    print('Вложиться могут: 2')
 elif sum_investions <= cash_ivan and sum_investions >= cash_michael:
-    print('1')
+    print('Вложиться могут: 1')
 elif sum_investions >= cash_ivan and sum_investions <= cash_michael:
-    print('1')
+    print('Вложиться могут: 1')
 else:
-    print('0')
+    print('Вложиться не могут')
